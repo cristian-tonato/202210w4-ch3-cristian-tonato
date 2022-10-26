@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { IKing } from "../models/interface";
 
 export function King({
@@ -10,30 +10,6 @@ export function King({
     imageURL,
     kingdomYear,
 }: IKing) {
-    
-    //const [currentStatus, setCurrentStatus] = useState(status);
-
-    /*const handleMessage = () => {
-        const comunicacionesHTMLElement: HTMLElement = document.querySelector(
-            `#${name}`
-        )!;
-        comunicacionesHTMLElement.style.display = "block";
-        comunicacionesHTMLElement.innerHTML = `<div class="box__container" id=${name}>
-            <p class="box__container__message">${name}: ${message} </p>
-        </div>`;
-        setTimeout(() => {
-            comunicacionesHTMLElement.style.display = "none";
-        }, 2000);
-    };*/
-
-    /*const handleDeath = () => {
-        setCurrentStatus(false);
-        const imageHTMLElement: HTMLElement = document.querySelector(
-            `#${family}`
-        )!;
-
-        imageHTMLElement.style.transform = "rotate(180deg)";
-    };*/
     return (
         <li className="character col">
             <div className="card character__card">
