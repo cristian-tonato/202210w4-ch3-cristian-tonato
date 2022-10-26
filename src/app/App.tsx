@@ -1,12 +1,19 @@
-import { Adviser } from "../components/card";
-import { Data } from "../components/data"
-
+import { King } from "../components/king";
+import { kingData } from "../models/listCard";
 
 export function App() {
+    
     return (
         <>
-            <Adviser></Adviser>
-            <Data></Data>
+            <King
+                name={kingData.name}
+                family={kingData.family}
+                age={kingData.age}
+                status={kingData.status}
+                message={kingData.message}
+                kingdomYear={kingData.kingdomYear}
+                imageURL={kingData.imageURL.toString()}
+            />
         </>
     );
 }
