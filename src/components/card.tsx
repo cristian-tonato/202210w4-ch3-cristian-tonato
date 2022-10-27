@@ -1,7 +1,7 @@
 
-import { IKing } from "../models/interface";
+import { ICard } from "../models/interface";
 
-export function King({
+export function Card({
     name,
     family,
     age,
@@ -9,7 +9,7 @@ export function King({
     message,
     imageURL,
     kingdomYear,
-}: IKing) {
+}: ICard) {
     return (
         <li className="character col">
             <div className="card character__card">

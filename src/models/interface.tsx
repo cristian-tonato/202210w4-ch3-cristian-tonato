@@ -7,7 +7,7 @@ export interface ICharacters{
     status: boolean;
     imageURL: string
 }
-export interface IKing extends ICharacters{
+export interface ICard extends ICharacters{
     kingdomYear: number;
     message: "Vais a morir todos"
 }

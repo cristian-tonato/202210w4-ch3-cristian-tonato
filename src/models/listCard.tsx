@@ -1,7 +1,7 @@
-import { IKing } from "./interface";
+import { ICard } from "./interface";
 
 
-export const kingData: IKing = {
+export const kingData: ICard = {
     name: "Joffrey",
     family: "Baratheon",
     age: 28,

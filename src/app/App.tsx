@@ -1,8 +1,7 @@
-import { King } from "../components/king";
+import { King } from "../components/card";
 import { kingData } from "../models/listCard";
 
 export function App() {
-    
     return (
         <>
             <King
